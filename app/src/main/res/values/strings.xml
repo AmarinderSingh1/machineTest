@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestProject</string>
+    <string name="fragment_home">Home</string>
+    <string name="fragment_messages">Messages</string>
+    <string name="messages_text">Messages Fragment</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+</resources>
