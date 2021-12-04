@@ -9,8 +9,7 @@ object BindingAdapters {
 
     @BindingAdapter("imageUrl")
     @JvmStatic fun loadImage(view: ImageView, url: String) {
-        Log.e("Print "," "+url)
-        Utility.loadImageFromGlide(view.context,url,view)
+       Utility.loadImageFromGlide(view.context,url,view)
     }
 
     /**

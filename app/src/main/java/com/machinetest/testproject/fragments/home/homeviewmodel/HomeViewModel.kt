@@ -1,11 +1,10 @@
-package com.machinetest.testproject.fragments.homeviewmodel
+package com.machinetest.testproject.fragments.home.homeviewmodel
 
 import android.app.Application
 import android.os.Handler
 import android.os.Looper
 import androidx.lifecycle.MutableLiveData
 import com.machinetest.testproject.CommonViewModel
-import com.machinetest.testproject.fragments.homeviewmodel.HomeScreenResponse
 import com.machinetest.testproject.networks.BackEndApi
 import com.machinetest.testproject.networks.WebServiceClient
 import kotlinx.coroutines.CoroutineScope

@@ -1,4 +1,4 @@
-package com.machinetest.testproject.fragments
+package com.machinetest.testproject.fragments.home
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -10,7 +10,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearSnapHelper
 import androidx.recyclerview.widget.SnapHelper
 import com.machinetest.testproject.R
-import com.machinetest.testproject.fragments.homeviewmodel.HomeViewModel
+import com.machinetest.testproject.fragments.BaseFragment
+import com.machinetest.testproject.fragments.home.homeviewmodel.HomeViewModel
 import com.machinetest.testproject.utility.Utility
 import kotlinx.android.synthetic.main.fragment_home.*
 
@@ -38,7 +39,11 @@ class HomeFragment : BaseFragment() {
                 if (!it.equals(null)) {
                     setRecyclerView(it)
                 }
-
+            } else {
+                Utility.showToast(
+                    mActivity,
+                    mActivity.resources.getString(R.string.something_went_wrong)
+                )
             }
         }
 

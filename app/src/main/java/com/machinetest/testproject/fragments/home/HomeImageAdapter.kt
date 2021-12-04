@@ -1,4 +1,4 @@
-package com.machinetest.testproject.fragments
+package com.machinetest.testproject.fragments.home
 
 import android.content.Context
 import androidx.databinding.DataBindingUtil
