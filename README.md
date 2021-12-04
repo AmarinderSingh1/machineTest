@@ -1,6 +1,7 @@
 # Machine Test
 =======================================================
-Date : Sat, Dec 04, 2021
+
+* Date : Sat, Dec 04, 2021
 
 * Task Completed :
     * Launcher Activity to contain the fragments
